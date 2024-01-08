@@ -1,0 +1,75 @@
+:root{
+    --back: rgb(98, 68, 168);
+}
+
+*{
+    background-color: rgb(98, 68, 168);
+}
+
+.container{
+    background-color: peachpuff;
+    width: 450px;
+    height: 500px;
+    position: relative;
+    left: 40%;
+    top: 200px;
+    border-radius:35px;
+    border: 7px white solid;
+}
+
+h2{
+    background-color: transparent;
+    color: var(--back);
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+background-color: transparent;
+text-align: right;
+padding-right: 20px;
+margin: 10px 0px;
+    display: block;
+}
+
+a:hover{
+    font-size: large;
+}
+
+input + a{
+    margin-top: 75px;
+}
+
+
+input{
+    position: relative;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: peachpuff;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    align-self: center;
+}
+
+
+#submit{
+font-size: 20px;
+position: relative;
+bottom: -75px;
+}
+
+#submit:hover{
+
+    background-color: var(--back);
+    color: white;
+    border-color: white;
+    font-size: large;
+    cursor: pointer;
+    font-weight: bold;
+}

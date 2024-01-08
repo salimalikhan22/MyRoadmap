@@ -1,0 +1,13 @@
+body > h2 {
+    color: blue;
+}
+
+.para{
+    color: white;
+    background-color: grey;
+}
+
+#para{
+    color: aqua;
+    font-size: 150%;
+}

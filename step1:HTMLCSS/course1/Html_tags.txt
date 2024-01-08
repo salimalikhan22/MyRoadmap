@@ -1,0 +1,104 @@
+Structural Tags
+
+These help organize the content of a web page.
+
+html
+
+<!DOCTYPE html> <!-- Document type declaration -->
+<html> <!-- Root element -->
+<head> <!-- Document metadata -->
+    <title> <!-- Title of the page -->
+</head>
+<body> <!-- Main content -->
+
+<section> <!-- Section of a document -->
+<div> <!-- Generic container -->
+<header> <!-- Header section -->
+<footer> <!-- Footer section -->
+<nav> <!-- Navigation links -->
+<article> <!-- Independent content section -->
+<aside> <!-- Sidebar content -->
+<main> <!-- Main content section -->
+
+<h1> to <h6> <!-- Headings of various sizes -->
+
+<p> <!-- Paragraph -->
+
+<ul> <!-- Unordered list -->
+<ol> <!-- Ordered list -->
+<li> <!-- List item -->
+
+<blockquote> <!-- Block of quoted text -->
+<q> <!-- Inline quotation -->
+<pre> <!-- Preformatted text -->
+
+<figure> <!-- Figures (images, code snippets, etc.) -->
+<figcaption> <!-- Caption for a figure -->
+
+<hr> <!-- Horizontal line -->
+
+<a> <!-- Anchor/link -->
+
+</a> <!-- Closing tag for an anchor/link -->
+
+Text Formatting Tags
+
+These modify the appearance of text.
+
+html
+
+<strong> <!-- Bold text -->
+<em> <!-- Italicized text -->
+<ins> <!-- Inserted text -->
+<del> <!-- Deleted text -->
+<mark> <!-- Highlighted text -->
+
+<sup> <!-- Superscript -->
+<sub> <!-- Subscript -->
+
+<abbr> <!-- Abbreviation -->
+<code> <!-- Code snippet -->
+<kbd> <!-- Keyboard input -->
+<samp> <!-- Sample output -->
+
+<span> <!-- Generic inline container -->
+
+Media Tags
+
+These are used to embed media.
+
+html
+
+<img> <!-- Image -->
+<video> <!-- Video -->
+<audio> <!-- Audio -->
+<source> <!-- Media source for <video> and <audio> -->
+<iframe> <!-- Inline frame -->
+<embed> <!-- Embedded content -->
+<object> <!-- External resource -->
+
+Form Tags
+
+These create interactive input forms.
+
+html
+
+<form> <!-- Form container -->
+<input> <!-- Input field -->
+<textarea> <!-- Multiline text input -->
+<button> <!-- Button -->
+<select> <!-- Dropdown list -->
+<option> <!-- Option in a <select> dropdown -->
+<label> <!-- Label for an input field -->
+<fieldset> <!-- Group of related inputs -->
+<legend> <!-- Caption for a <fieldset> -->
+<datalist> <!-- List of predefined options for an <input> -->
+<output> <!-- Result of a calculation -->
+
+Meta Tags
+
+These provide metadata about the document.
+
+html
+
+<meta> <!-- Metadata about the HTML document -->

@@ -1,0 +1,68 @@
+Text Styling
+
+css
+
+color: /* Text color */
+font-family: /* Font family */
+font-size: /* Font size */
+font-weight: /* Font weight */
+text-align: /* Text alignment */
+text-decoration: /* Text decoration */
+line-height: /* Line height */
+
+Box Model
+
+css
+
+margin: /* Outer margin */
+padding: /* Inner padding */
+border: /* Border */
+width: /* Width of the element */
+height: /* Height of the element */
+
+Layout
+
+css
+
+display: /* Element display type */
+position: /* Positioning type */
+float: /* Floating elements */
+clear: /* Clear floating elements */
+flex: /* Flexible layout */
+grid-template-columns: /* Columns in a grid layout */
+grid-template-rows: /* Rows in a grid layout */
+
+Backgrounds
+
+css
+
+background-color: /* Background color */
+background-image: /* Background image */
+background-size: /* Size of background image */
+background-position: /* Position of background image */
+background-repeat: /* Repeat behavior of background image */
+
+Borders
+
+css
+
+border-style: /* Style of the border */
+border-color: /* Color of the border */
+border-width: /* Width of the border */
+border-radius: /* Border radius for rounded corners */
+
+Transitions and Animations
+
+css
+
+transition: /* Property transition */
+animation: /* Animation */
+
+Miscellaneous
+
+css
+
+box-shadow: /* Shadow effect */
+opacity: /* Opacity of an element */
+text-shadow: /* Shadow effect for text */
+cursor: /* Cursor type on hover */

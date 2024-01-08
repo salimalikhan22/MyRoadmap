@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>HTML & CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="Favicon" href="./images.jpeg">
+  </head>
+  <body>
+    <p>Hello, This is just for testing</p>
+    <i>This is Italic Tag</i> <br />
+    <strong>This is strong tag</strong><br />
+    <em>This is emphsize tag</em><br />
+    <small>This is small Tag</small> <br />
+    <del>This is Delete tag</del><br />
+    <ins>This is insert tag</ins><br />
+    <p>Text Before Sub Tag<sub>This is sub tag</sub></p>
+    <br />
+    <p>Text Before Sup Tag<sup>This is sup tag</sup></p>
+    <br />
+    <mark>This is mark tag</mark> <br />
+
+    <!--This is Comment which will not appear on the output-->
+
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Headnig 5</h5>
+    <h6>Heading 6</h6>
+
+    <u>This is underlined Test</u> <br />
+    <q> The is quoted text </q>
+
+    <br />
+
+    <h2>Input Type Text</h2>
+    <input type="text" />
+
+    <h2>Input Types</h2>
+    <p>Checkbox</p>
+    <input type="checkbox" />
+    <p>Color</p>
+    <input type="color" />
+    <p>Button</p>
+    <input type="button" />
+    <p>Date</p>
+    <input type="date" />
+    <p>datetime-local</p>
+    <input type="datetime-local" />
+    <p>Email</p>
+    <input type="email" />
+    <p>File</p>
+    <input type="file" />
+    <p>Hidden</p>
+    <input type="hidden" />
+    <p>Image</p>
+    <input type="image" />
+    <p>Month</p>
+    <input type="month" />
+    <p>Number</p>
+    <input type="number" />
+    <p>Password</p>
+    <input type="password" />
+    <p>Radio</p>
+    <input type="radio" />
+    <p>Range</p>
+    <input type="range" />
+    <p>reset</p>
+    <input type="reset" />
+    <p>Search</p>
+    <input type="search" />
+    <p>Submit</p>
+    <input type="submit" />
+    <p>Tel</p>
+    <input type="tel" />
+    <p>text</p>
+    <input type="text" />
+    <p>time</p>
+    <input type="time" />
+    <p>URL</p>
+    <input type="url" />
+    <p>week</p>
+    <input type="week" />
+
+    <!--Attributs-->
+
+    <h2>Files</h2>
+    <br /><input type="file" multiple /> <br /><input
+      type="file"
+      accept="image/*"
+    />
+
+    <h2>Placeholder For Inputs</h2>
+    <br /><input type="text" placeholder="Name" />
+
+    <h2>Size for Inputs</h2>
+    <input type="text" placeholder="Name" size="10" />
+
+    <h2>Read Only</h2>
+    <input type="text" placeholder="name" size="10" readonly />
+
+    <h2>Max and Min Length</h2>
+    <input
+      type="text"
+      placeholder="name"
+      size="10"
+      maxlength="10"
+      minlength="4"
+    />
+
+    <h2>Labels</h2>
+    <br />
+    <br />
+    <label for="password">Password</label>
+    <input type="password" name="Password" id="password" />
+
+    <h2>Datalist</h2>
+
+    <label for="datalist-input">Datalist</label>
+    <input list="Datalist" id="datalist-input" />
+    <datalist id="Datalist">
+      <option value="Red">Red</option>
+      <option value="Blue">Blue</option>
+    </datalist>
+    <h2>Table</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Salim</td>
+          <td>23</td>
+        </tr>
+        <tr>
+          <td>Danish</td>
+          <td>22</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>List</h2>
+
+    <h4>Ordered list</h4>
+    <ol>
+      <li>
+        Item 1
+        <dl>Description about Item 1</dl>
+      </li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ol>
+    <h4>Unordered List</h4>
+    <ul>
+      <li>
+        Item 1
+        <dl>Description about Item 1</dl>
+      </li>
+      <li>Item 2</li>
+    </ul>
+
+
+    <h2>Form</h2>
+    <form>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="Email"><br>
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" placeholder="Password"> <br>
+
+      <input type="submit" value="submit">
+      <input type="reset" value="reset">
+
+    </form>
+
+
+    <h2>Styles</h2>
+    <p style="padding-left: 10%; background-color: rgb(164, 182, 197); font-weight: bold; border-bottom: 1px solid; height: auto;">Adding CSS using Style attribute</p>
+<h2>Abbreviation</h2>
+<p>This is all about the abbreviation <abbr title="Hypertext Markup Language">HTML</abbr></p>
+ 
+<h2>IFrame</h2>
+<iframe src="./index.html" title="picture" width="50%" height="500px"></iframe>
+
+<h2>Fieldset</h2>
+
+<fieldset>
+  <legend>This is the list</legend>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2 </li>
+  </ul>
+  <legend>Name</legend>
+  <input type="text" name="name" id="name">
+</fieldset>
+
+<h2>
+  Details
+</h2>
+<details>
+  <summary>This is all about the summary</summary>
+  <p>We are writing about details and summary</p>
+</details>
+
+<H2>Video</H2>
+<video style="width: 500px; height: 500px;" src="./Screencast from 13-12-2023 16:24:24.webm" autoplay muted controls loop></video>
+
+
+</body>
+</html>
