@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jquery</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./jquery-3.7.1.min.js"></script>
+  </head>
+  <body>
+    <script>
+      //Creating elements and assigning CSS
+      $("document").ready(function () {
+        $("body").append(
+          "<h1 class='borderClass' >This code has been added by JQuery</h1>"
+        );
+        $("body").append(
+          "<h1 id='toggle' >This code has been added by JQuery</h1>"
+        );
+        $(".borderClass").css({ border: "1px solid black", color: "purple" });
+
+        //Replacement using html fnction
+
+        var newText = $("<p>");
+        newText.append("<i> I have just replaced some content </i>");
+        $("#text").html(newText);
+
+        //MOUSE EVENTS
+        $("#testevents").on("click", mouseClicked);
+        $("#testevents").on("mouseleave", mouseLeaves);
+
+        function mouseClicked() {
+          $("#testevents").html("<h1>Box has been clicked</h1>");
+          $("#text").show();
+        }
+        function mouseLeaves() {
+          $("#testevents").html("<h1>where are you going</h1>");
+        }
+
+        //hide Show
+        $("#text").on("click", hideandShow);
+
+        function hideandShow() {
+          $(this).hide();
+        }
+
+        $("#toggle").hover(elementHover);
+        function elementHover() {
+          $(this).toggleClass("highlight");
+        }
+        //  TOGGLE
+        $("#toggleMe").click(toggleText);
+        function toggleText() {
+          $("#togglecontent").toggle(2000, "linear");
+        }
+
+        //Animate
+        $("#animat").click(function() { 
+            $("#animate").animate({"width": "800", "font-size": "15px"})
+         })
+      });
+    </script>
+
+    <div id="text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum amet
+      possimus dolor quae esse cupiditate porro non officiis mollitia odit
+      incidunt architecto, perspiciatis voluptates! Consequuntur aliquid
+      corrupti eaque id quasi.
+    </div>
+
+    <div id="testevents"></div>
+
+    <a id="toggleMe" href="#">Toggle</a>
+    <div id="togglecontent">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum amet
+        possimus dolor quae esse cupiditate porro non officiis mollitia odit
+        incidunt architecto, perspiciatis voluptates! Consequuntur aliquid
+        corrupti eaque id quasi.
+      </p>
+    </div>
+
+    <a href="#" id="animat">Animate</a>
+    <p id="animate"> 
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+      distinctio, iure, recusandae sed iste quod id labore quam fugiat
+      voluptates magni veritatis. Vitae tempora voluptates qui, ipsum quisquam
+      aspernatur ducimus.
+    </p>
+  </body>
+</html>
